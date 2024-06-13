@@ -1,0 +1,172 @@
+.logo{
+    width: 50%;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+.fondofiesta{
+    background-image: url(./img/fondo-top.jpg);
+    background-position: center
+}
+
+.texto-font{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.bg-lightred{
+    background-color: rgb(230, 34, 34);
+}
+
+.img1{
+    height: 400px;
+    width: 547px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* Custom CSS for hoverable dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(196, 23, 23);
+    border: 1px solid #ced4da;
+    z-index: 1000;
+}
+
+.dropdown-hover:hover .dropdown-menu {
+    display: block;
+}
+
+.imglocal{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.productos{
+    width: 120px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.descip_iluminacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productos_indiv{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn-primary{
+    display: flex;
+    justify-content: center;
+}
+
+.element-left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.element-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1)
+}
+
+.nav-item {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.white-text{
+    color: white;
+}
+
+.mensaje-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 93px;
+    background-color: rgb(230, 34, 34);
+    color: white;
+    padding: 10px 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mensaje-flotante :hover {
+    background-color: #e6b8b7;
+}
+
+.mensaje-flotante  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mensaje-flotante  a:hover {
+    text-decoration: underline;
+}
+
+#Nosotros.texto-font {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Nosotros.texto-font p {
+    background-color: #ffffff;
+    border-left: 5px solid #ffcccb;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-style: italic;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#Nosotros.texto-font p::before {
+    font-size: 24px;
+    color: #ffcccb;
+    margin-right: 5px;
+}
+
+#Nosotros.texto-font p::after {
+    font-size: 24px;
+    color: #ffcccb;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+
+#Nosotros.texto-font p span {
+    display: block;
+    text-align: right;
+    color: #555;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.faqs-text{
+    font-weight: bold;
+}
